@@ -26,9 +26,13 @@ func main() {
 	}
 
 	dataTypesToFolders := map[string]string{
-		".png": "images",
-		".pdf": "pdfs",
-		".jpg": "images",
+		".png":  "images",
+		".pdf":  "pdfs",
+		".jpg":  "images",
+		".txt":  "texts",
+		".jpeg": "images",
+		".zip":  "zip_files",
+		".dmg":  "dmgs_images",
 	}
 
 	// create the target folders if these don't exist
